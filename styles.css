@@ -28,7 +28,6 @@ header {
 }
 
 .menu-nav ul li {
-  display: flex;
 }
 
 .button {
@@ -80,7 +79,7 @@ h4 {
 }
 .vector-1 {
   position: absolute;
-  top: 460px;
+  top: 470px;
 }
 
 .arrow-1 {
