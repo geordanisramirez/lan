@@ -1,12 +1,15 @@
-/*html {
-  background: linear-gradient(216deg, #27c0ef 13.84%, #00a8db 83.53%);
-}*/
+html {
+  width: 1400px;
+  height: auto;
+}
 
 body {
   background: linear-gradient(216deg, #27c0ef 13.84%, #00a8db 83.53%);
   max-width: 1200px;
   height: 100%;
-  margin: 100px;
+  margin: 60px;
+  margin-top: -510;
+  padding: 10px;
 }
 
 header {
@@ -23,7 +26,7 @@ header {
 .container-header {
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 50px;
+  margin-top: -100px;
 }
 
 .menu-nav ul {
@@ -65,8 +68,8 @@ h1 {
   font-weight: 700;
   line-height: 76px; /* 118.75% */
   text-align: left;
-  margin-top: 50px;
-  margin: 70px;
+  margin-top: 550px;
+  margin: 10px;
   left: -100px;
   right: 10px;
   padding: 10px;
@@ -79,14 +82,14 @@ h4 {
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
-  margin: 70px;
+  margin: 10px;
   padding: 10px;
 }
 
 .grupo-6 {
   color: #00a8db;
   text-align: center;
-  margin-left: 80px;
+  margin-left: 20px;
   margin-right: 900px;
   padding: 20px;
   font-family: DM Sans;
@@ -99,9 +102,9 @@ h4 {
 }
 .vector-1 {
   position: absolute;
-  top: 670px;
+  top: 420px;
   margin-top: -120px;
-  padding: 80px;
+  padding: 20px;
 }
 
 .arrow-1 {
@@ -110,7 +113,7 @@ h4 {
   text-align: center;
   top: -100px;
   margin-top: 80px;
-  margin-right: 300px;
+  margin-right: 500px;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -121,15 +124,8 @@ h4 {
 .grupo-10 {
   width: 738px;
   height: 461px;
-  position: relative;
-  justify-content: center;
-}
-
-.img {
-  max-width: 100%;
-  width: 0;
-}
-
-@media screen and {
-  min-width: 1200px;
+  position: absolute;
+  margin: 670px;
+  top: -400px;
+  left: 50px;
 }
