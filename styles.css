@@ -135,3 +135,26 @@ h4 {
 .align-center {
   align-items: center;
 }
+
+.partners {
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.imagen-principal {
+  margin-right: 812px;
+  margin-left: 396px;
+}
+
+.texto-principal {
+  color: #034d82;
+  font-family: DM Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 144.444% */
+  letter-spacing: 0.3px;
+}
