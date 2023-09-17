@@ -144,12 +144,17 @@ h4 {
   cursor: pointer;
 }
 
-.imagen-principal {
+.img-principal {
   margin-right: 812px;
-  margin-left: 396px;
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 494px;
+  height: 550.854px;
+  flex-shrink: 0;
 }
 
 .texto-principal {
+  width: 390px;
   color: #034d82;
   font-family: DM Sans;
   font-size: 36px;
@@ -157,4 +162,53 @@ h4 {
   font-weight: 700;
   line-height: 52px; /* 144.444% */
   letter-spacing: 0.3px;
+  text-align: start;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.texto-secundario {
+  width: 485px;
+  height: 96px;
+  flex-shrink: 0;
+  color: #90a3b4;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 0.3px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.texto-tercero {
+  width: 485px;
+  height: 282px;
+  flex-shrink: 0;
+  stroke-width: 1.5px;
+  stroke: #04aadd;
+  margin-left: 150px;
+  margin-top: 10px;
+  color: #04aadd;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.seccion-mac {
+  margin-top: 100px;
+}
+
+.lista-mac {
+  margin-left: 150px;
+}
+
+.img-mac {
+  width: 699.954px;
+  height: 410.39px;
+  flex-shrink: 0;
+  margin-top: 100px;
 }
