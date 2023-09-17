@@ -212,3 +212,68 @@ h4 {
   flex-shrink: 0;
   margin-top: 100px;
 }
+
+.seccion-hashtag {
+  background: #effbff;
+}
+
+.titulo-hashtag {
+  color: #034d82;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 144.444% */
+  letter-spacing: 0.3px;
+  padding-top: 150px;
+}
+
+.parrafo-hashtag {
+  color: #8ea9c1;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 0.3px;
+  margin: 430px;
+  margin-top: 50px;
+}
+
+.cuadros-hashtag {
+  /*width: 1160px;
+  height: 337px;
+  flex-shrink: 0;*/
+  margin-left: 300px;
+  margin-right: 300px;
+  border: 8px;
+}
+
+.hashtag-1 {
+  width: 259px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  color: #034d82;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */
+  letter-spacing: 0.2px;
+}
+
+.hashtag-texto {
+  width: 198px;
+  color: #8ea9c1;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  letter-spacing: 0.3px;
+}
