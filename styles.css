@@ -215,9 +215,13 @@ h4 {
 
 .seccion-hashtag {
   background: #effbff;
+  width: 70%vh;
+  height: 776px;
 }
 
 .titulo-hashtag {
+  display: block;
+  top: 100px;
   color: #034d82;
   text-align: center;
   font-family: DM Sans;
@@ -226,7 +230,8 @@ h4 {
   font-weight: 700;
   line-height: 52px; /* 144.444% */
   letter-spacing: 0.3px;
-  padding-top: 150px;
+  margin-left: 115px;
+  margin-right: 115px;
 }
 
 .parrafo-hashtag {
@@ -238,23 +243,39 @@ h4 {
   font-weight: 400;
   line-height: 32px; /* 200% */
   letter-spacing: 0.3px;
-  margin: 430px;
-  margin-top: 50px;
+  margin: 200px;
+  margin-top: 10px;
+  margin-left: 380px;
+  margin-right: 380px;
 }
 
 .cuadros-hashtag {
-  /*width: 1160px;
-  height: 337px;
-  flex-shrink: 0;*/
-  margin-left: 300px;
-  margin-right: 300px;
+  width: 1200px;
+  height: 300px;
+  margin-left: 80px;
+  margin-right: 80px;
   border: 8px;
+  margin-top: -10px;
+  /*padding: 20px;*/
+}
+
+.texto-titulo {
+  display: inline-flex;
+  padding: 0px 4.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.hashtag {
+  margin-left: -150px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .hashtag-1 {
-  width: 259px;
-  height: 300px;
-  flex-shrink: 0;
   border-radius: 8px;
   background: #fff;
   color: #034d82;
@@ -265,10 +286,11 @@ h4 {
   font-weight: 700;
   line-height: 32px; /* 160% */
   letter-spacing: 0.2px;
+  margin-right: 50px;
+  margin-left: 10px;
 }
 
 .hashtag-texto {
-  width: 198px;
   color: #8ea9c1;
   font-family: DM Sans;
   font-size: 15px;
@@ -276,4 +298,15 @@ h4 {
   font-weight: 400;
   line-height: 24px; /* 160% */
   letter-spacing: 0.3px;
+  margin-left: 75px;
+  margin-right: 25px;
+  margin-top: 20px;
+  text-align: initial;
+  padding-left: 25px;
+}
+
+.hashtag-titulo {
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: initial;
 }
